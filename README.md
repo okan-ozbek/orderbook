@@ -8,10 +8,6 @@
  ▒▒▒███████▒   █████   █████ ██████████   ██████████ █████   █████ ███████████  ▒▒▒███████▒   ▒▒▒███████▒   █████ ▒▒████
    ▒▒▒▒▒▒▒    ▒▒▒▒▒   ▒▒▒▒▒ ▒▒▒▒▒▒▒▒▒▒   ▒▒▒▒▒▒▒▒▒▒ ▒▒▒▒▒   ▒▒▒▒▒ ▒▒▒▒▒▒▒▒▒▒▒     ▒▒▒▒▒▒▒       ▒▒▒▒▒▒▒    ▒▒▒▒▒   ▒▒▒▒                                                                                                                      
 ```
-<div style="width:100%; text-align:right;">
-<span style="font-size: 9px; text-align: right;">ASCII art generated with <a href="https://patorjk.com/software/taag/#p=display&f=Rebel&t=ORDERBOOK&x=none&v=4&h=4&w=80&we=false">patorjk.com</a></span>
-</div>
-
 A simple, fast C++ **limit order book** that matches **buy** and **sell** orders by best price, then by time (first-in, first-served).
 
 ## How it works
@@ -42,3 +38,8 @@ Tests live in `/tests` and run via the helper scripts in `/scripts` (build with 
 | `.\scripts\app-test-verbose.cmd`  | Runs tests with detailed output |
 
 **NOTE**: If your shell can resolve scripts directly, `app-test` also works — no `.\scripts\` prefix needed.
+
+---
+<div style="width:100%; text-align:right;">
+<span style="font-size: 9px; text-align: right;">ASCII art generated with <a href="https://patorjk.com/software/taag/#p=display&f=Rebel&t=ORDERBOOK&x=none&v=4&h=4&w=80&we=false">patorjk.com</a></span>
+</div>
